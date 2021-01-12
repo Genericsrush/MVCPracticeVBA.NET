@@ -145,6 +145,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Product.vb" />
+    <Compile Include="Models\User.vb" />
+    <Compile Include="Models\UsersController.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -199,6 +201,11 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
     <Content Include="Views\Product\index.vbhtml" />
+    <Content Include="Views\Users\Create.vbhtml" />
+    <Content Include="Views\Users\Delete.vbhtml" />
+    <Content Include="Views\Users\Details.vbhtml" />
+    <Content Include="Views\Users\Edit.vbhtml" />
+    <Content Include="Views\Users\Index.vbhtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
